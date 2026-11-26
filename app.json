@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Realtor Parth",
+    "slug": "Realtor_Parth_adminmobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/realtor-parth-icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#996515"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "realtor-parth-ios",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/realtor-parth-icon-foreground.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.paramsolutions.Realtor_Parth_adminmobile"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": ["expo-router", "expo-secure-store", "expo-splash-screen"],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "04657c55-fc49-4bcf-bd1b-288e4e1efe3c"
+      }
+    }
+  }
+}
